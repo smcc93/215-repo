@@ -14,7 +14,10 @@ nav {
   nav .logo {
     height: 42px;
     width: 92px;
-    border: 2px solid #ffffff; }
+    background-image: url("../images/logo/logo-white.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
   nav .links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,18 +80,11 @@ nav {
     .hero-wrapper .callout .site-button {
       height: 40px;
       width: 122px;
-      padding: 10px 25px;
+      padding: 5px 15px;
       background-color: #79addc;
       text-decoration: none;
       color: #ffffff;
       font-size: 15px; }
-    .hero-wrapper .callout .logo {
-      height: 27px;
-      width: 96px;
-      background-image: url(../images/logo/logo-white.svg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
 
 * {
   margin: 0;
