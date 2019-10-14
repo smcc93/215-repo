@@ -1,6 +1,6 @@
 # This is the readme for all 215 coursework
 
-## This is the folder for homeowrk assignments
+## This is the folder for homework assignments
 
 The website links will be added here
 
