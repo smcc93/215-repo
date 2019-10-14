@@ -3,3 +3,7 @@
 ## This is the folder for homeowrk assignments
 
 The website links will be added here
+
+## Assignment two- travel-fly hero
+
+https://smcc93.github.io/215-repo/travelfly-hero/
