@@ -1,0 +1,23 @@
+.quote {
+  height: 300px;
+  @include center-content();
+  //background-color: aqua;
+  display: flex;
+
+  .quote-content {
+    width: 789px;
+    margin: auto;
+    .quote-text {
+      color: $site-yellow;
+      margin-bottom: 25px;
+    }
+    .quote-ceo {
+      color: $site-pink;
+      margin-bottom: 0px;
+    }
+    .quote-ceo-title {
+      color: $site-grey;
+      font-size: 10px;
+    }
+  }
+}

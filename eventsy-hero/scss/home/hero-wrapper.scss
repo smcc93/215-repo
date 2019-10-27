@@ -7,9 +7,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1280px;
+    //this is empty but can have arguements passed to over-write the hard coded arguements, need both arguements
+    @include center-content();
+    //width: 1280px;
     height: 100%;
-    margin: 0 auto;
+    //margin: 0 auto;
     background-image: linear-gradient(
         to right,
         rgba($site-yellow, 0.8),

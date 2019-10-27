@@ -10,7 +10,8 @@ nav {
   .logo {
     height: 42px;
     width: 92px;
-    border: 2px solid $site-white;
+    //border: 2px solid $site-white;
+    background-image: url("../images/logo/logo-white.svg");
   }
   .links {
     display: flex;
