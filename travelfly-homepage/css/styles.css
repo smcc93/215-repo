@@ -88,6 +88,11 @@ nav {
       color: #ffffff;
       font-size: 15px; }
 
+.flyer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 * {
   margin: 0;
   padding: 0;
