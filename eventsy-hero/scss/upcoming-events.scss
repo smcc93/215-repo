@@ -1,5 +1,5 @@
 .upcoming-events {
-  height: 320px;
+  min-height: 320px;
   background-color: $site-purple;
 
   .event-container {
@@ -17,7 +17,7 @@
       width: 392px;
     }
     .date-container {
-      height: 124px;
+      min-height: 124px;
       //background-color: blue;
       margin-top: 34px;
       display: flex;
@@ -58,6 +58,19 @@
             font-size: 13px;
             color: $site-pink;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1092px) {
+  .upcoming-events {
+    .event-container {
+      .date-container {
+        flex-direction: column;
+        .date {
+          margin: auto;
         }
       }
     }

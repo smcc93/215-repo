@@ -1,5 +1,5 @@
 //this has hard coded parameters that can be overwritten with arguements
 @mixin center-content($width: $site-full-width, $margin: 0 auto) {
-  width: $width;
+  max-width: $width;
   margin: $margin;
 }
