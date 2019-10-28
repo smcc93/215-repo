@@ -42,6 +42,8 @@ nav {
   width: 100%;
   height: 500px;
   background-color: #000000; }
+  .hero-wrapper h1 {
+    text-transform: lowercase; }
   .hero-wrapper .hero {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -95,7 +97,10 @@ nav {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  height: 300px;
+  color: #ffffff;
+  background-color: red; }
   .flyer .country {
     height: 304px;
     width: 236px;
@@ -105,21 +110,34 @@ nav {
     flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    background-color: blue;
+    margin-top: -30px; }
     .flyer .country span {
       text-transform: lowercase; }
+    .flyer .country a {
+      text-decoration: none; }
     .flyer .country .isreal {
-      background-image: url(../../images/tour/tour-01.jpg);
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-01.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
     .flyer .country .usa {
-      background-image: url(../../images/tour/tour-02.jpg);
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-02.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
     .flyer .country .australia {
-      background-image: url(../../images/tour/tour-03.jpg);
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-03.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }

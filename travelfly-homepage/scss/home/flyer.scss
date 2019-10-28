@@ -2,30 +2,53 @@
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  height: 300px;
+  color: $site-white;
+  background-color: red;
 
   .country {
     height: 304px;
     width: 236px;
     flex-direction: column;
     align-items: center;
+    background-color: blue;
+    margin-top: -30px;
 
     span {
       text-transform: lowercase;
     }
+    a {
+      text-decoration: none;
+    }
     .isreal {
-      background-image: url(../../images/tour/tour-01.jpg);
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../../images/tour/tour-01.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
     .usa {
-      background-image: url(../../images/tour/tour-02.jpg);
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../../images/tour/tour-02.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
     .australia {
-      background-image: url(../../images/tour/tour-03.jpg);
+      background-image: linear-gradient(
+          to right,
+          rgba($site-black, 0.4),
+          rgba($site-black, 0.4)
+        ),
+        url("../../images/tour/tour-03.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
