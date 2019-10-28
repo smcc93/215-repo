@@ -98,19 +98,31 @@ nav {
   text-transform: uppercase; }
   .flyer .country {
     height: 304px;
-    width: 236;
+    width: 236px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
+    align-items: center; }
     .flyer .country span {
       text-transform: lowercase; }
+    .flyer .country .isreal {
+      background-image: url(../../images/tour/tour-01.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .flyer .country .usa {
+      background-image: url(../../images/tour/tour-02.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .flyer .country .australia {
+      background-image: url(../../images/tour/tour-03.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
 
 * {
   margin: 0;
