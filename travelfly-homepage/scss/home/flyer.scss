@@ -1,3 +1,12 @@
 .flyer {
   display: flex;
+  justify-content: center;
+
+  .country {
+    height: 304px;
+    width: 236;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
