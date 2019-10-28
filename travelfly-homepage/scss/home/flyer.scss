@@ -1,6 +1,7 @@
 .flyer {
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 
   .country {
     height: 304px;
@@ -8,5 +9,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    span {
+      text-transform: lowercase;
+    }
   }
 }
