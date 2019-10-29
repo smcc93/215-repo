@@ -70,26 +70,39 @@
         </div>
       </div>
     </section>
-    
+
     <section class="form">
       <div class="title"><p>Booking form</p></div>
       <div class="name-email">
-        <input type="text" name="name" placeholder="name..." />
-        <input type="text" name="email" placeholder="email..." />
+        <div class="name">
+          <input type="text" name="name" placeholder="name..." />
+        </div>
+        <div class="email">
+          <input type="text" name="email" placeholder="email..." />
+        </div>
       </div>
       <div class="country-hotel">
-        <input type="text" name="country" placeholder="country..." />
-        <input type="text" name="hotel" placeholder="hotel..." />
+        <div class="input-country">
+          <input type="text" name="country" placeholder="country..." />
+        </div>
+        <div class="hotel">
+          <input type="text" name="hotel" placeholder="hotel..." />
+        </div>
       </div>
       <div class="checkin-out">
-        <span>Check-in</span>
-        <input type="text" name="checkin" placeholder="5/10/2020" />
-        <span>Check-out</span>
-        <input type="text" name="checkout" placeholder="5/20/2020" />
+        <div class="checkin">
+          <div class="cin"><span>Check-in</span></div>
+          <input type="text" name="checkin" placeholder="5/10/2020" />
+        </div>
+        <div class="checkout">
+          <div class="cout"><span>Check-out</span></div>
+          <input type="text" name="checkout" placeholder="5/20/2020" />
+        </div>
       </div>
       <div class="adjustables">
-        <span>Adult</span>
         <form action="#">
+          <span>Adult</span>
+
           <select name="number">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -99,8 +112,9 @@
             <option value="6">6</option>
           </select>
         </form>
-        <span>Children</span>
-        <select name="number">
+        <form action="#">
+          <span>Children</span>
+          <select name="number">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -109,9 +123,10 @@
             <option value="6">6</option>
           </select>
         </form>
+        <form action="#">
+          <span>Rooms</span>
 
-        <span>Rooms</span>
-        <select name="number">
+          <select name="number">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -121,8 +136,14 @@
           </select>
         </form>
       </div>
-      <div class="message"></div>
+      <div class="message">
+        <input type="text" name="message" placeholder="message..." />
+      </div>
       <a class="form-button" href="#">submit</a>
+    </section>
+    <section class="footer">
+      <div class="logo"></div>
+      <p>Copyright 2019 travel-fly. All rights reserved</p>
     </section>
   </body>
 </html>
