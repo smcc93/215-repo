@@ -155,7 +155,7 @@ nav {
       font-family: "Roboto", sans-serif; }
     .flyer .country p {
       font-family: "Roboto", sans-serif;
-      font-size: 50px; }
+      font-size: 40px; }
     .flyer .country .flyer-button {
       text-decoration: none;
       color: #ffffff;
@@ -366,3 +366,16 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
+  .footer .trademark {
+    margin: 15px; }
+  .footer .social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 23px; }

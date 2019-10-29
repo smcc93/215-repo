@@ -36,4 +36,13 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .trademark {
+    margin: 15px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+  }
 }
