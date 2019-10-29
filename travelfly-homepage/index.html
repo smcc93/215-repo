@@ -70,8 +70,59 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="form"></div>
+    
+    <section class="form">
+      <div class="title"><p>Booking form</p></div>
+      <div class="name-email">
+        <input type="text" name="name" placeholder="name..." />
+        <input type="text" name="email" placeholder="email..." />
+      </div>
+      <div class="country-hotel">
+        <input type="text" name="country" placeholder="country..." />
+        <input type="text" name="hotel" placeholder="hotel..." />
+      </div>
+      <div class="checkin-out">
+        <span>Check-in</span>
+        <input type="text" name="checkin" placeholder="5/10/2020" />
+        <span>Check-out</span>
+        <input type="text" name="checkout" placeholder="5/20/2020" />
+      </div>
+      <div class="adjustables">
+        <span>Adult</span>
+        <form action="#">
+          <select name="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </form>
+        <span>Children</span>
+        <select name="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </form>
+
+        <span>Rooms</span>
+        <select name="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </form>
+      </div>
+      <div class="message"></div>
+      <a class="form-button" href="#">submit</a>
     </section>
   </body>
 </html>

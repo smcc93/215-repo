@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  height: 891px;
+  margin: 0 auto;
+  width: 818px;
+
+  input {
+    border: 1px solid $site-blue;
+    text-decoration: none;
+    font-family: $lato-font;
+  }
+  .title {
+    font-size: 60px;
+    font-family: $roboto-font;
+  }
+
+  .name-email {
+    width: 827px;
+    height: 58px;
+  }
+  .country-hotel {
+    width: 827px;
+    height: 58px;
+  }
+
+  .form-button {
+    height: 61px;
+    width: 813px;
+    background-color: $site-blue;
+    font-family: $lato-font;
+    font-size: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $site-white;
+    text-transform: uppercase;
+  }
+}

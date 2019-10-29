@@ -40,6 +40,7 @@
       font-size: 20px;
       text-transform: lowercase;
       font-family: $lato-font;
+      font-style: italic;
     }
     .desc {
       color: $site-white;
@@ -54,6 +55,7 @@
       text-decoration: none;
       color: $site-white;
       font-size: 15px;
+      font-family: $lato-font;
     }
   }
 }
