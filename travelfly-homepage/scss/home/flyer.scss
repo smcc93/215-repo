@@ -1,6 +1,6 @@
 .flyer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-transform: uppercase;
   height: 300px;
   color: $site-white;
@@ -11,14 +11,17 @@
     width: 236px;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
+    //background-color: blue;
     margin-top: -30px;
+    border: solid 1px black;
 
     span {
       text-transform: lowercase;
     }
-    a {
+    .flyer-button {
       text-decoration: none;
+      color: $site-white;
+      background-color: $site-blue;
     }
     .isreal {
       background-image: linear-gradient(
@@ -26,7 +29,7 @@
           rgba($site-black, 0.4),
           rgba($site-black, 0.4)
         ),
-        url("../../images/tour/tour-01.jpg");
+        url("../images/tour-01.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -37,7 +40,7 @@
           rgba($site-black, 0.4),
           rgba($site-black, 0.4)
         ),
-        url("../../images/tour/tour-02.jpg");
+        url("../images/tour-02.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -48,7 +51,7 @@
           rgba($site-black, 0.4),
           rgba($site-black, 0.4)
         ),
-        url("../../images/tour/tour-03.jpg");
+        url("../images/tour-03.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;

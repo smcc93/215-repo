@@ -32,7 +32,8 @@ nav {
     nav .links a {
       color: #ffffff;
       font-size: 15px;
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: "Lato", sans-serif; }
     nav .links span {
       margin: 0 10px;
       color: #79addc;
@@ -71,12 +72,14 @@ nav {
     margin-top: 90px; }
     .hero-wrapper .callout h1 {
       color: #ffffff;
-      font-size: 60px; }
+      font-size: 60px;
+      font-family: "Roboto", sans-serif; }
     .hero-wrapper .callout .l-imp {
       color: #ffffff;
       margin-bottom: 35px;
       font-size: 20px;
-      text-transform: lowercase; }
+      text-transform: lowercase;
+      font-family: "Lato", sans-serif; }
     .hero-wrapper .callout .desc {
       color: #ffffff;
       margin-bottom: 35px;
@@ -94,9 +97,8 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   text-transform: uppercase;
   height: 300px;
   color: #ffffff;
@@ -111,33 +113,35 @@ nav {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: blue;
-    margin-top: -30px; }
+    margin-top: -30px;
+    border: solid 1px black; }
     .flyer .country span {
       text-transform: lowercase; }
-    .flyer .country a {
-      text-decoration: none; }
+    .flyer .country .flyer-button {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #79addc; }
     .flyer .country .isreal {
-      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-01.jpg");
-      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
-      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-01.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-01.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-01.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-01.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
     .flyer .country .usa {
-      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-02.jpg");
-      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
-      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-02.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-02.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-02.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-02.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
     .flyer .country .australia {
-      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-03.jpg");
-      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
-      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour-03.jpg");
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-03.jpg");
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-03.jpg");
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour-03.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -150,8 +154,7 @@ nav {
 
 html,
 body {
-  height: 100%;
-  font-family: "Lato", sans-serif; }
+  height: 100%; }
 
 h1,
 h2,
