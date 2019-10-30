@@ -54,13 +54,17 @@
     border: solid 1px black;
 
     span {
+      display: flex;
       text-transform: lowercase;
       font-size: 30px;
       font-family: $roboto-font;
+      justify-content: center;
     }
     p {
+      display: flex;
       font-family: $roboto-font;
       font-size: 40px;
+      justify-content: center;
     }
     .flyer-button {
       text-decoration: none;

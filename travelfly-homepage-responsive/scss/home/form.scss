@@ -140,13 +140,14 @@
     text-transform: uppercase;
   }
   .message {
-    input {
+    textarea {
       width: 818px;
       height: 192px;
       font-family: $lato-font;
       font-size: 18px;
       color: $site-black;
       margin-bottom: 25px;
+      border-color: $site-blue;
     }
   }
 }

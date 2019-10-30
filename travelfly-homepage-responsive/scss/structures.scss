@@ -24,7 +24,7 @@ p {
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-family: $lato-font;
   font-size: 12px;
@@ -35,15 +35,27 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-left: 300px;
   }
   .copyright {
     margin: 15px;
+    color: $site-white;
+    font-family: $lato-font;
+    font-size: 12px;
   }
   .social-media {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 112px;
     height: 23px;
-    margin-right: -500px;
+    margin-right: 300px;
+
+    // margin-right: -500px;
+    .icon {
+      font-size: 23px;
+      //background-color: green;
+      color: $site-white;
+    }
   }
 }
