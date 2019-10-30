@@ -262,13 +262,18 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: 18px;
     font-family: "Lato", sans-serif;
     color: #000000;
-    font-size: 18px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 15px; }
+    .form .checkin .check-in-text {
+      font-family: "Lato", sans-serif;
+      color: #000000;
+      font-size: 18px;
+      padding-left: 15px; }
   .form .cin {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -293,23 +298,39 @@ nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-size: 18px;
     font-family: "Lato", sans-serif;
     color: #000000;
-    font-size: 18px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 15px; }
+    .form .checkout .check-out-text {
+      padding-left: 15px;
+      font-family: "Lato", sans-serif;
+      color: #000000;
+      font-size: 18px; }
   .form .adjustables {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     height: 58px;
     font-family: "Lato", sans-serif;
     color: #000000;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-bottom: 20px; }
+    .form .adjustables .form-adjustables {
+      height: 58px;
+      width: 103px;
+      font-family: "Lato", sans-serif;
+      color: #000000;
+      font-size: 18px;
+      border-color: #79addc;
+      font-family: "Lato", sans-serif;
+      padding-left: 15px; }
   .form .form-button {
     height: 61px;
     width: 813px;
@@ -336,7 +357,8 @@ nav {
     font-size: 18px;
     color: #000000;
     margin-bottom: 25px;
-    border-color: #79addc; }
+    border-color: #79addc;
+    padding-left: 15px; }
 
 * {
   margin: 0;

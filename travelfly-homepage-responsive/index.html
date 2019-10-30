@@ -96,12 +96,22 @@
       <div class="checkin-out">
         <div class="checkin">
           <div class="cin"><span>Check-in</span></div>
-          <input type="text" name="checkin" placeholder="5/10/2020 " />
+          <input
+            type="text"
+            name="checkin"
+            placeholder="5/10/2020 "
+            class="check-in-text"
+          />
           <i class="far fa-calendar-alt"></i>
         </div>
         <div class="checkout">
           <div class="cout"><span>Check-out</span></div>
-          <input type="text" name="checkout" placeholder="5/20/2020" />
+          <input
+            type="text"
+            name="checkout"
+            placeholder="5/20/2020"
+            class="check-out-text"
+          />
           <i class="far fa-calendar-alt"></i>
         </div>
       </div>
@@ -109,7 +119,8 @@
         <form action="#">
           <span>Adult</span>
 
-          <select name="number">
+          <select name="number" class="form-adjustables">
+            <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -120,7 +131,8 @@
         </form>
         <form action="#">
           <span>Children</span>
-          <select name="number">
+          <select name="number" class="form-adjustables">
+            <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -132,7 +144,8 @@
         <form action="#">
           <span>Rooms</span>
 
-          <select name="number">
+          <select name="number" class="form-adjustables">
+            <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
