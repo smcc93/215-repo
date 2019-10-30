@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.footer {
+  background-color: $site-blue;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $lato-font;
+  font-size: 12px;
+  .logo {
+    height: 42px;
+    width: 92px;
+    background-image: url("../images/logo/logo-white.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .copyright {
+    margin: 15px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    margin-right: -500px;
+  }
+}
