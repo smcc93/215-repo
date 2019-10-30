@@ -99,6 +99,9 @@
       font-size: 18px;
       padding-left: 15px;
     }
+    .calendar {
+      position: absolute;
+    }
   }
   .cin {
     display: flex;
@@ -116,7 +119,8 @@
   }
 
   .checkout {
-    display: flex;
+    display: inline-flex;
+
     font-size: 18px;
     font-family: $lato-font;
     color: $site-black;
@@ -127,6 +131,11 @@
       font-family: $lato-font;
       color: $site-black;
       font-size: 18px;
+    }
+    .calendar {
+      //display: inline-block;
+      position: absolute;
+      // left: 10px;
     }
   }
 
