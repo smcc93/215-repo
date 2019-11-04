@@ -30,7 +30,7 @@ p {
   font-size: 12px;
   .logo {
     height: 42px;
-    width: 92px;
+    min-width: 92px;
     background-image: url("../images/logo/logo-white.svg");
     background-position: center;
     background-size: cover;
@@ -47,7 +47,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 112px;
+    min-width: 112px;
     height: 23px;
     margin-right: 300px;
 

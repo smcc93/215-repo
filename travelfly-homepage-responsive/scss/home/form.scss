@@ -4,7 +4,7 @@
   //align-items: center;
   min-height: 891px;
   margin: 0 auto;
-  width: 818px;
+  max-width: 818px;
   //width: 60%;
 
   input {
@@ -196,24 +196,74 @@
 
 @media (max-width: 1000px) {
   .form {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    // margin-left: 15px;
+    margin-bottom: 100px;
 
     .name-email {
       display: flex;
       flex-direction: column;
+      align-items: center;
       margin-bottom: 100px;
+      .name {
+        input {
+          width: 453px;
+        }
+      }
     }
     .country-hotel {
       display: flex;
       flex-direction: column;
+      align-items: center;
       margin-bottom: 100px;
+      .input-country {
+        input {
+          width: 453px;
+        }
+      }
     }
     .checkin-out {
-      width: 60%;
+      .checkin {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        input {
+          width: 453px;
+        }
+        .check-in-text {
+          background-position-x: 420px;
+        }
+      }
+      .checkout {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        input {
+          width: 453px;
+        }
+        .check-out-text {
+          background-position-x: 420px;
+        }
+      }
     }
     .adjustables {
+      width: 453px;
+      margin-bottom: 50px;
+      .form-adjustables {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .message {
+      textarea {
+        width: 453px;
+      }
+    }
+    .form-button {
+      width: 453px;
     }
   }
 }

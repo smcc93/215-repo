@@ -242,7 +242,7 @@ nav {
   justify-content: center;
   min-height: 891px;
   margin: 0 auto;
-  width: 818px; }
+  max-width: 818px; }
   .form input {
     border: 1px solid #79addc;
     text-decoration: none;
@@ -426,6 +426,9 @@ nav {
 
 @media (max-width: 1000px) {
   .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -435,7 +438,8 @@ nav {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 100px; }
     .form .name-email {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -444,7 +448,12 @@ nav {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       margin-bottom: 100px; }
+      .form .name-email .name input {
+        width: 453px; }
     .form .country-hotel {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -453,9 +462,53 @@ nav {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
       margin-bottom: 100px; }
-    .form .checkin-out {
-      width: 60%; } }
+      .form .country-hotel .input-country input {
+        width: 453px; }
+    .form .checkin-out .checkin {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 60%; }
+      .form .checkin-out .checkin input {
+        width: 453px; }
+      .form .checkin-out .checkin .check-in-text {
+        background-position-x: 420px; }
+    .form .checkin-out .checkout {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 60%; }
+      .form .checkin-out .checkout input {
+        width: 453px; }
+      .form .checkin-out .checkout .check-out-text {
+        background-position-x: 420px; }
+    .form .adjustables {
+      width: 453px;
+      margin-bottom: 50px; }
+      .form .adjustables .form-adjustables {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+    .form .message textarea {
+      width: 453px; }
+    .form .form-button {
+      width: 453px; } }
 
 * {
   margin: 0;
@@ -492,7 +545,7 @@ p {
   font-size: 12px; }
   .footer .logo {
     height: 42px;
-    width: 92px;
+    min-width: 92px;
     background-image: url("../images/logo/logo-white.svg");
     background-position: center;
     background-size: cover;
@@ -513,7 +566,7 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 112px;
+    min-width: 112px;
     height: 23px;
     margin-right: 300px; }
     .footer .social-media .icon {
