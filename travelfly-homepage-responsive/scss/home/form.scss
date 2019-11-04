@@ -2,7 +2,7 @@
   //display: flex;
   justify-content: center;
   //align-items: center;
-  height: 891px;
+  min-height: 891px;
   margin: 0 auto;
   width: 818px;
   //width: 60%;
@@ -190,6 +190,30 @@
       margin-bottom: 25px;
       border-color: $site-blue;
       padding-left: 15px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .form {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .name-email {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px;
+    }
+    .country-hotel {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 100px;
+    }
+    .checkin-out {
+      width: 60%;
+    }
+    .adjustables {
     }
   }
 }

@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  height: 300px;
+  min-height: 300px;
   color: $site-white;
   //background-color: red;
-  width: 818px;
+  max-width: 818px;
   //width: 50%;
-  margin-left: 550px;
+  //margin-left: 550px;
   //margin-left: 29%;
+  margin: 0 auto;
   .isreal {
     background-image: linear-gradient(
         to right,
@@ -84,12 +85,14 @@
   }
 }
 
-@media (max-width: 1092px) {
+@media (max-width: 1000px) {
   .flyer {
-    .country {
-      flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-      margin: auto;
+    .country {
+      margin-bottom: 50px;
     }
   }
 }

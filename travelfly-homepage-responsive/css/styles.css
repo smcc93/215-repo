@@ -89,7 +89,7 @@ nav {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 1280px;
+    max-width: 1280px;
     height: 500px;
     margin: 0 auto;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero.jpg");
@@ -136,10 +136,10 @@ nav {
   -ms-flex-pack: justify;
   justify-content: space-between;
   text-transform: uppercase;
-  height: 300px;
+  min-height: 300px;
   color: #ffffff;
-  width: 818px;
-  margin-left: 550px; }
+  max-width: 818px;
+  margin: 0 auto; }
   .flyer .isreal {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-01.jpg");
     background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
@@ -221,19 +221,26 @@ nav {
       justify-content: center;
       margin-top: 50px; }
 
-@media (max-width: 1092px) {
-  .flyer .country {
+@media (max-width: 1000px) {
+  .flyer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: auto; } }
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .flyer .country {
+      margin-bottom: 50px; } }
 
 .form {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 891px;
+  min-height: 891px;
   margin: 0 auto;
   width: 818px; }
   .form input {
@@ -416,6 +423,39 @@ nav {
     margin-bottom: 25px;
     border-color: #79addc;
     padding-left: 15px; }
+
+@media (max-width: 1000px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .form .name-email {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 100px; }
+    .form .country-hotel {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 100px; }
+    .form .checkin-out {
+      width: 60%; } }
 
 * {
   margin: 0;
