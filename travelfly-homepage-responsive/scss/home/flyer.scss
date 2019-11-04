@@ -6,8 +6,9 @@
   color: $site-white;
   //background-color: red;
   width: 818px;
+  //width: 50%;
   margin-left: 550px;
-
+  //margin-left: 29%;
   .isreal {
     background-image: linear-gradient(
         to right,
@@ -79,6 +80,16 @@
       align-items: center;
       justify-content: center;
       margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 1092px) {
+  .flyer {
+    .country {
+      flex-direction: column;
+
+      margin: auto;
     }
   }
 }

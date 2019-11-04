@@ -5,6 +5,7 @@
   height: 891px;
   margin: 0 auto;
   width: 818px;
+  //width: 60%;
 
   input {
     border: 1px solid $site-blue;
@@ -98,9 +99,36 @@
       color: $site-black;
       font-size: 18px;
       padding-left: 15px;
+
+      display: inline-flex;
+      background-size: 15px;
+      background-image: url("../images/calendar.svg");
+      background-repeat: no-repeat;
+      background-position-x: 670px;
+      background-position-y: 20px;
     }
-    .calendar {
-      position: absolute;
+  }
+
+  .checkout {
+    display: flex;
+
+    font-size: 18px;
+    font-family: $lato-font;
+    color: $site-black;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .check-out-text {
+      padding-left: 15px;
+      font-family: $lato-font;
+      color: $site-black;
+      font-size: 18px;
+
+      display: inline-flex;
+      background-size: 15px;
+      background-image: url("../images/calendar.svg");
+      background-repeat: no-repeat;
+      background-position-x: 670px;
+      background-position-y: 20px;
     }
   }
   .cin {
@@ -117,28 +145,6 @@
 
     //margin-right: 15px;
   }
-
-  .checkout {
-    display: inline-flex;
-
-    font-size: 18px;
-    font-family: $lato-font;
-    color: $site-black;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    .check-out-text {
-      padding-left: 15px;
-      font-family: $lato-font;
-      color: $site-black;
-      font-size: 18px;
-    }
-    .calendar {
-      //display: inline-block;
-      position: absolute;
-      // left: 10px;
-    }
-  }
-
   .adjustables {
     display: flex;
     justify-content: space-between;

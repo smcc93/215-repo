@@ -1,5 +1,5 @@
 nav {
-  width: 980px;
+  width: 80%;
   height: 92px;
   border-bottom: 2px solid #ffffff;
   display: -webkit-box;
@@ -18,7 +18,11 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
-  nav .links {
+  nav .link-wrap:hover > .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  nav .link-wrap .links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -29,15 +33,42 @@ nav {
     -ms-flex-pack: center;
     justify-content: center;
     text-transform: lowercase; }
-    nav .links a {
+    nav .link-wrap .links a {
       color: #ffffff;
       font-size: 15px;
       text-decoration: none;
       font-family: "Lato", sans-serif; }
-    nav .links span {
+    nav .link-wrap .links span {
       margin: 0 10px;
       color: #79addc;
       font-size: 20px; }
+  nav .link-wrap .navicon {
+    display: none;
+    color: #ffffff;
+    font-size: 120%;
+    cursor: pointer; }
+
+@media (max-width: 768px) {
+  nav .link-wrap:hover > .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  nav .link-wrap .links {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 250px;
+    width: 200px;
+    margin-right: -30px; }
+    nav .link-wrap .links a {
+      margin-bottom: 20px; }
+    nav .link-wrap .links span {
+      display: none; }
+  nav .link-wrap .navicon {
+    display: block; } }
 
 .hero-wrapper {
   width: 100%;
@@ -188,6 +219,14 @@ nav {
       justify-content: center;
       margin-top: 50px; }
 
+@media (max-width: 1092px) {
+  .flyer .country {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto; } }
+
 .form {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -273,9 +312,39 @@ nav {
       font-family: "Lato", sans-serif;
       color: #000000;
       font-size: 18px;
-      padding-left: 15px; }
-    .form .checkin .calendar {
-      position: absolute; }
+      padding-left: 15px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      background-size: 15px;
+      background-image: url("../images/calendar.svg");
+      background-repeat: no-repeat;
+      background-position-x: 670px;
+      background-position-y: 20px; }
+  .form .checkout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+    .form .checkout .check-out-text {
+      padding-left: 15px;
+      font-family: "Lato", sans-serif;
+      color: #000000;
+      font-size: 18px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      background-size: 15px;
+      background-image: url("../images/calendar.svg");
+      background-repeat: no-repeat;
+      background-position-x: 670px;
+      background-position-y: 20px; }
   .form .cin {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -296,24 +365,6 @@ nav {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-  .form .checkout {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    font-size: 18px;
-    font-family: "Lato", sans-serif;
-    color: #000000;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    margin-bottom: 15px; }
-    .form .checkout .check-out-text {
-      padding-left: 15px;
-      font-family: "Lato", sans-serif;
-      color: #000000;
-      font-size: 18px; }
-    .form .checkout .calendar {
-      position: absolute; }
   .form .adjustables {
     display: -webkit-box;
     display: -ms-flexbox;
