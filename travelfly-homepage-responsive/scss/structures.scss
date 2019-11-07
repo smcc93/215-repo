@@ -59,3 +59,17 @@ p {
     }
   }
 }
+@media (max-width: 1000px) {
+  .footer {
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .logo {
+      margin: 0 auto;
+    }
+    .social-media {
+      margin: 0 auto;
+    }
+  }
+}
