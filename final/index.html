@@ -20,148 +20,200 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="hero-wrapper">
-      <div class="hero">
-        <nav>
-          <div class="logo"></div>
-          <div class="link-wrap">
-            <div class="links">
-              <a href="#">Home</a>
-              <span> | </span>
-              <a href="#">About</a>
-              <span> | </span>
-              <a href="#">Tours</a>
-              <span> | </span>
-              <a href="#">Special Offers</a>
-              <span> | </span>
-              <a href="#">Blog</a>
-              <span> | </span>
-              <a href="#">Contact</a>
+    <section class="home-page">
+      <section class="hero-wrapper">
+        <div class="hero">
+          <nav>
+            <div class="logo"></div>
+            <div class="link-wrap">
+              <div class="links">
+                <a href="#">Home</a>
+                <span> | </span>
+                <a href="#">About</a>
+                <span> | </span>
+                <a href="#">Tours</a>
+                <span> | </span>
+                <a href="#">Special Offers</a>
+                <span> | </span>
+                <a href="#">Blog</a>
+                <span> | </span>
+                <a href="#">Contact</a>
+              </div>
+              <div class="navicon">
+                <i class="fas fa-bars"></i>
+              </div>
             </div>
-            <div class="navicon">
-              <i class="fas fa-bars"></i>
+          </nav>
+
+          <div class="callout">
+            <h1>Travel-fly</h1>
+            <p class="l-imp">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
+              aliquid minus nemo sed est.
+            </p>
+            <a class="site-button" href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flyer">
+          <div class="country isreal">
+            <div>
+              <p>isreal</p>
+              <span>from $1000</span>
             </div>
+            <a class="flyer-button" href="#">Learn more</a>
           </div>
-        </nav>
+          <div class="country usa">
+            <div>
+              <p>u.s.a</p>
+              <span>from $1500</span>
+            </div>
+            <a class="flyer-button" href="#">Learn more</a>
+          </div>
+          <div class="country australia">
+            <div>
+              <p>australia</p>
+              <span>from $1800</span>
+            </div>
+            <a class="flyer-button" href="#">Learn more</a>
+          </div>
+        </div>
+      </section>
 
-        <div class="callout">
-          <h1>Travel-fly</h1>
-          <p class="l-imp">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat
-            aliquid minus nemo sed est.
-          </p>
-          <a class="site-button" href="#">Read More</a>
+      <section class="form">
+        <div class="title"><p>Booking form</p></div>
+        <div class="name-email">
+          <div class="name">
+            <input type="text" name="name" placeholder="name..." />
+          </div>
+          <div class="email">
+            <input type="text" name="email" placeholder="email..." />
+          </div>
+        </div>
+        <div class="country-hotel">
+          <div class="input-country">
+            <input type="text" name="country" placeholder="country..." />
+          </div>
+          <div class="hotel">
+            <input type="text" name="hotel" placeholder="hotel..." />
+          </div>
+        </div>
+        <div class="checkin-out">
+          <div class="checkin">
+            <div class="cin"><span>Check-in</span></div>
+            <input type="date" placeholder="5/10/2020 " class="check-in-text" />
+          </div>
+          <div class="checkout">
+            <div class="cout"><span>Check-out</span></div>
+            <input
+              type="date"
+              name="checkout"
+              placeholder="5/20/2020"
+              class="check-out-text"
+            />
+          </div>
+        </div>
+        <div class="adjustables">
+          <form action="#">
+            <span>Adult</span>
+
+            <select name="number" class="form-adjustables">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </form>
+          <form action="#">
+            <span>Children</span>
+            <select name="number" class="form-adjustables">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </form>
+          <form action="#">
+            <span>Rooms</span>
+
+            <select name="number" class="form-adjustables">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </form>
+        </div>
+        <div class="message">
+          <textarea
+            type="text"
+            name="message"
+            placeholder="message..."
+          ></textarea>
+        </div>
+        <a class="form-button" href="#">submit</a>
+      </section>
+    </section>
+    <section class="about-page">
+      <div class="about">
+        <h1>About:</h1>
+        <div class="line"></div>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+          aliquam quaerat voluptatem.
+        </p>
+      </div>
+      <div class="quotes">
+        <h1>Client Quotes</h1>
+        <div class="line"></div>
+        <div class="quote1">
+          <div class="picture"></div>
+          <div class="quote">
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <p>Miranda Brown</p>
+          </div>
+        </div>
+        <div class="quote2">
+          <div class="picture"></div>
+          <div class="quote">
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <p>Johnathan Wes</p>
+          </div>
         </div>
       </div>
     </section>
-    <section>
-      <div class="flyer">
-        <div class="country isreal">
-          <div>
-            <p>isreal</p>
-            <span>from $1000</span>
-          </div>
-          <a class="flyer-button" href="#">Learn more</a>
-        </div>
-        <div class="country usa">
-          <div>
-            <p>u.s.a</p>
-            <span>from $1500</span>
-          </div>
-          <a class="flyer-button" href="#">Learn more</a>
-        </div>
-        <div class="country australia">
-          <div>
-            <p>australia</p>
-            <span>from $1800</span>
-          </div>
-          <a class="flyer-button" href="#">Learn more</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="form">
-      <div class="title"><p>Booking form</p></div>
-      <div class="name-email">
-        <div class="name">
-          <input type="text" name="name" placeholder="name..." />
-        </div>
-        <div class="email">
-          <input type="text" name="email" placeholder="email..." />
-        </div>
-      </div>
-      <div class="country-hotel">
-        <div class="input-country">
-          <input type="text" name="country" placeholder="country..." />
-        </div>
-        <div class="hotel">
-          <input type="text" name="hotel" placeholder="hotel..." />
-        </div>
-      </div>
-      <div class="checkin-out">
-        <div class="checkin">
-          <div class="cin"><span>Check-in</span></div>
-          <input type="date" placeholder="5/10/2020 " class="check-in-text" />
-        </div>
-        <div class="checkout">
-          <div class="cout"><span>Check-out</span></div>
-          <input
-            type="date"
-            name="checkout"
-            placeholder="5/20/2020"
-            class="check-out-text"
-          />
-        </div>
-      </div>
-      <div class="adjustables">
-        <form action="#">
-          <span>Adult</span>
-
-          <select name="number" class="form-adjustables">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-          </select>
-        </form>
-        <form action="#">
-          <span>Children</span>
-          <select name="number" class="form-adjustables">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-          </select>
-        </form>
-        <form action="#">
-          <span>Rooms</span>
-
-          <select name="number" class="form-adjustables">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-          </select>
-        </form>
-      </div>
-      <div class="message">
-        <textarea
-          type="text"
-          name="message"
-          placeholder="message..."
-        ></textarea>
-      </div>
-      <a class="form-button" href="#">submit</a>
-    </section>
+    <section class="tours-main"></section>
+    <section class="tours-details"></section>
+    <section class="special-offer"></section>
+    <section class="blog"></section>
+    <section class="contact"></section>
     <section class="footer">
       <div class="logo"></div>
       <div class="copyright">
