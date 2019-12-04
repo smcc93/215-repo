@@ -510,6 +510,153 @@ nav {
     .form .form-button {
       width: 453px; } }
 
+.about-page {
+  min-height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 200px; }
+  .about-page .about {
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .about-page .about h1 {
+      font-family: "Roboto", sans-serif;
+      font-size: 60px;
+      font-weight: 100;
+      text-transform: uppercase; }
+    .about-page .about h1:after {
+      content: "";
+      display: block;
+      width: 140px;
+      border-bottom: 2px solid black; }
+    .about-page .about p {
+      width: 800px;
+      font-family: "Lato", sans-serif;
+      font-size: 16; }
+  .about-page .quotes {
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -50px; }
+    .about-page .quotes h3 {
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      font-weight: 100;
+      text-transform: uppercase; }
+    .about-page .quotes h3:after {
+      content: "";
+      display: block;
+      width: 225px;
+      border-bottom: 2px solid black; }
+    .about-page .quotes p {
+      width: 385px;
+      font-family: "Lato", sans-serif;
+      font-size: 16px; }
+    .about-page .quotes .quote1 {
+      height: 400px;
+      width: 800px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 50px; }
+      .about-page .quotes .quote1 .picture {
+        height: 150px;
+        width: 260px;
+        background-image: url("../../images/about-client-01.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .about-page .quotes .quote1 .quote {
+        height: 100px;
+        width: 385px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        margin-right: 125px; }
+      .about-page .quotes .quote1 .color {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        text-transform: capitalize;
+        font-style: normal;
+        color: #79addc;
+        margin-left: 275px; }
+    .about-page .quotes .quote2 {
+      height: 400px;
+      width: 800px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-top: 50px; }
+      .about-page .quotes .quote2 .picture {
+        height: 150px;
+        width: 260px;
+        background-image: url("../../images/about-client-02.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .about-page .quotes .quote2 .quote {
+        height: 100px;
+        width: 385px;
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        margin-right: 125px; }
+      .about-page .quotes .quote2 .color {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-weight: 100;
+        text-transform: capitalize;
+        font-style: normal;
+        color: #79addc;
+        margin-left: 275px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -528,6 +675,12 @@ h5,
 h6,
 p {
   margin-bottom: 16px; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
 
 .footer {
   background-color: #79addc;

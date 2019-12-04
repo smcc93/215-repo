@@ -1,0 +1,28 @@
+@mixin quotePics($image) {
+  height: 150px;
+  width: 260px;
+  background-image: url($image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //margin-right: 20px;
+}
+
+@mixin quote {
+  height: 100px;
+  width: 385px;
+  font-family: $lato-font;
+  font-size: 16px;
+  font-style: italic;
+  margin-right: 125px;
+}
+
+@mixin color {
+  font-family: $roboto-font;
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-style: normal;
+  color: $site-blue;
+  margin-left: 275px;
+}

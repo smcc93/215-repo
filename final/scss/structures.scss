@@ -18,7 +18,12 @@ h6,
 p {
   margin-bottom: 16px;
 }
-
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 .footer {
   background-color: $site-blue;
   height: 100px;
