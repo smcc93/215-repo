@@ -1,0 +1,92 @@
+.special-offer {
+  height: 100%;
+  .special {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 200px;
+    h3 {
+      font-family: $roboto-font;
+      font-size: 30px;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+    h3:after {
+      content: "";
+      display: block;
+      width: 60%;
+      border-bottom: 2px solid black;
+    }
+    .offer1 {
+      display: flex;
+      .image {
+        height: 290px;
+        width: 200px;
+        background-image: url("../images/special-offer-01.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+      }
+      .offer-details {
+        margin-bottom: 75px;
+        .deal {
+          display: flex;
+          span {
+            color: $site-orange;
+            font-family: $lato-font;
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: 10px;
+          }
+        }
+      }
+      p {
+        width: 300px;
+        height: 130px;
+        font-family: $lato-font;
+        font-weight: 100;
+        font-size: 16px;
+      }
+      .offer-button {
+        @include button();
+      }
+    }
+    .offer2 {
+      display: flex;
+      .image {
+        height: 290px;
+        width: 200px;
+        background-image: url("../images/special-offer-02.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+      }
+      .offer-details {
+        margin-bottom: 75px;
+        .deal {
+          display: flex;
+          span {
+            color: $site-orange;
+            font-family: $lato-font;
+            font-size: 20px;
+            font-weight: 100;
+            margin-left: 10px;
+          }
+        }
+      }
+      p {
+        width: 300px;
+        height: 130px;
+        font-family: $lato-font;
+        font-weight: 100;
+        font-size: 16px;
+      }
+      .offer-button {
+        @include button();
+      }
+    }
+  }
+}

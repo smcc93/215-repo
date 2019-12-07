@@ -10,16 +10,18 @@
   //margin-left: 550px;
   //margin-left: 29%;
   margin: 0 auto;
+  margin-bottom: 50px;
   .isreal {
-    background-image: linear-gradient(
-        to right,
-        rgba($site-black, 0.4),
-        rgba($site-black, 0.4)
-      ),
-      url("../images/tour/tour-01.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: linear-gradient(
+    //     to right,
+    //     rgba($site-black, 0.4),
+    //     rgba($site-black, 0.4)
+    //   ),
+    //   url("../images/tour/tour-01.jpg");
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    @include flyer("../images/tour/tour-01.jpg");
   }
   .usa {
     background-image: linear-gradient(
@@ -43,17 +45,35 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-
+  .nz {
+    @include flyer("../images/tour/tour-04.jpg");
+  }
+  .france {
+    @include flyer("../images/tour/tour-05.jpg");
+  }
+  .egypt {
+    @include flyer("../images/tour/tour-06.jpg");
+  }
+  .japan {
+    @include flyer("../images/tour/tour-07.jpg");
+  }
+  .canada {
+    @include flyer("../images/tour/tour-08.jpg");
+  }
+  .uae {
+    @include flyer("../images/tour/tour-09.jpg");
+  }
   .country {
-    height: 304px;
-    width: 236px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    //background-color: blue;
-    margin-top: -35px;
-    border: solid 1px black;
+    // height: 304px;
+    // width: 236px;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // //background-color: blue;
+    // margin-top: -35px;
+    // border: solid 1px black;
+    @include country();
 
     span {
       display: flex;
@@ -67,24 +87,53 @@
       font-family: $roboto-font;
       font-size: 40px;
       justify-content: center;
+      text-align: center;
     }
     .flyer-button {
-      text-decoration: none;
-      color: $site-white;
-      background-color: $site-blue;
-      font-family: $lato-font;
-      font-size: 15px;
-      border-radius: 50px;
-      width: 133px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 50px;
+      // text-decoration: none;
+      // color: $site-white;
+      // background-color: $site-blue;
+      // font-family: $lato-font;
+      // font-size: 15px;
+      // border-radius: 50px;
+      // width: 133px;
+      // height: 40px;
+      // display: flex;
+      // align-items: center;
+      // justify-content: center;
+      // margin-top: 50px;
+      @include button();
     }
   }
 }
-
+.tours-header {
+  background-image: linear-gradient(
+      to right,
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    url("../images/tour/tours-header.jpg");
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 85px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $site-white;
+    font-family: $roboto-font;
+    font-weight: 100;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+}
 @media (max-width: 1000px) {
   .flyer {
     flex-direction: column;
@@ -94,5 +143,11 @@
     .country {
       margin-bottom: 50px;
     }
+  }
+}
+
+@media (max-width: 1400px) {
+  .tours-header {
+    width: 100%;
   }
 }
