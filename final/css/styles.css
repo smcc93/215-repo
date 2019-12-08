@@ -134,7 +134,7 @@ nav {
 .special-offer {
   height: 100%; }
   .special-offer .special {
-    width: 80%;
+    width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -144,6 +144,8 @@ nav {
     flex-direction: column;
     margin: 0 auto;
     margin-top: 200px; }
+    .special-offer .special .title {
+      width: 300px; }
     .special-offer .special h3 {
       font-family: "Roboto", sans-serif;
       font-size: 30px;
@@ -254,6 +256,20 @@ nav {
         justify-content: center;
         margin-top: 50px;
         text-transform: uppercase; }
+
+@media (max-width: 1000px) {
+  .special-offer {
+    margin-bottom: 500px; }
+    .special-offer .special .offer1 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .special-offer .special .offer2 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .flyer {
   display: -webkit-box;
@@ -419,7 +435,8 @@ nav {
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 200px; }
   .tours-header h1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -903,6 +920,185 @@ nav {
       flex-direction: column; }
       .about-page .quotes .quote2 .quote {
         margin-right: 0; } }
+
+.blog {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 60%;
+  margin-bottom: 300px; }
+  .blog .blog-title {
+    margin-top: 200px;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px; }
+  .blog .blog-title:after {
+    content: "";
+    display: block;
+    width: 5%;
+    border-bottom: 2px solid black; }
+  .blog .blogs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .blog .blogs .blog1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 100px; }
+    .blog .blogs .blog2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .blog .blogs .blog-date {
+      height: 60px;
+      width: 60px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-color: #79addc;
+      margin-right: 20px; }
+      .blog .blogs .blog-date .day {
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+        color: #ffffff;
+        font-style: bold; }
+      .blog .blogs .blog-date .month {
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        color: #ffffff;
+        margin: 0 auto;
+        font-weight: 100;
+        text-transform: uppercase;
+        padding-left: 20px; }
+    .blog .blogs .blog-image {
+      background-image: url("../images/blog.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 900px;
+      height: 259px;
+      margin-bottom: 20px; }
+    .blog .blogs h5 {
+      width: 245px;
+      height: 22px;
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      margin-bottom: 20px; }
+    .blog .blogs p {
+      width: 380px;
+      height: 64px;
+      font-family: "Roboto", sans-serif;
+      color: #79addc;
+      font-size: 13px; }
+
+@media (max-width: 1300px) {
+  .blog .blogs .blog-image {
+    width: 700px; } }
+
+@media (max-width: 1000px) {
+  .blog {
+    margin-bottom: 500px; }
+    .blog .blogs .blog-image {
+      width: 100%; }
+    .blog .blogs .blog1 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    .blog .blogs .blog2 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
+
+.contact {
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 60%; }
+  .contact .title h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase; }
+  .contact .title h3:after {
+    content: "";
+    display: block;
+    width: 9%;
+    border-bottom: 2px solid black; }
+  .contact .info .map-form .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 530px;
+    height: 442px; }
+    .contact .info .map-form .form .input {
+      height: 60px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px; }
+    .contact .info .map-form .form .message {
+      height: 200px;
+      padding-left: 10px;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      padding-top: 10px; }
+  .contact .info .address-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .contact .info .address-button .address p {
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      color: #000000; }
+    .contact .info .address-button .button {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #79addc;
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      border-radius: 50px;
+      width: 133px;
+      height: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 50px;
+      text-transform: uppercase; }
 
 * {
   margin: 0;

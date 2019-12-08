@@ -1,11 +1,14 @@
 .special-offer {
   height: 100%;
   .special {
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     margin-top: 200px;
+    .title {
+      width: 300px;
+    }
     h3 {
       font-family: $roboto-font;
       font-size: 30px;
@@ -86,6 +89,20 @@
       }
       .offer-button {
         @include button();
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .special-offer {
+    margin-bottom: 500px;
+    .special {
+      .offer1 {
+        flex-direction: column;
+      }
+      .offer2 {
+        flex-direction: column;
       }
     }
   }

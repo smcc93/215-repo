@@ -1,0 +1,58 @@
+.contact {
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 60%;
+  .title {
+    h3 {
+      font-family: $roboto-font;
+      font-size: 30px;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+    h3:after {
+      content: "";
+      display: block;
+      width: 9%;
+      border-bottom: 2px solid black;
+    }
+  }
+  .info {
+    .map-form {
+      .form {
+        display: flex;
+        flex-direction: column;
+        width: 530px;
+        height: 442px;
+
+        .input {
+          height: 60px;
+          margin-bottom: 20px;
+          padding-left: 10px;
+          font-family: $roboto-font;
+          font-size: 16px;
+        }
+        .message {
+          height: 200px;
+          padding-left: 10px;
+          font-family: $roboto-font;
+          font-size: 16px;
+          padding-top: 10px;
+        }
+      }
+    }
+    .address-button {
+      display: flex;
+      .address {
+        p {
+          font-size: 18px;
+          font-family: $roboto-font;
+          color: $site-black;
+        }
+      }
+      .button {
+        @include button();
+      }
+    }
+  }
+}
