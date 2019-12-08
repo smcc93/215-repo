@@ -66,3 +66,12 @@
   margin-top: 50px;
   text-transform: uppercase;
 }
+
+@mixin tourImage($image) {
+  background-image: url($image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 300px;
+}

@@ -1,3 +1,127 @@
 .tours-details {
-  height: 100%;
+  // height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  .hero {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    height: 415px;
+    width: 981px;
+    background-image: linear-gradient(
+        to right,
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+      ),
+      url("../images/tour/tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .header {
+      font-family: $lato-font;
+      color: $site-white;
+      font-size: 80px;
+      font-weight: 100;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 15px;
+    }
+    .price {
+      font-family: $lato-font;
+      color: $site-white;
+      font-size: 30px;
+      font-weight: 100;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+    }
+  }
+
+  .content {
+    height: 775px;
+    max-width: 981px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //margin-bottom: 200px;
+    .day {
+      h3 {
+        font-family: $lato-font;
+        font-weight: 100;
+        font-size: 60px;
+      }
+      h3:after {
+        content: "";
+        display: block;
+        width: 15%;
+        border-bottom: 2px solid black;
+      }
+      p {
+        font-family: $roboto-font;
+        font-size: 16px;
+      }
+    }
+    .button {
+      @include button();
+    }
+  }
+
+  .tourFlyer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    width: 1000px;
+
+    .one {
+      @include tourImage("../images/tour/tour-israel/israel-tour-01.jpg");
+    }
+    .two {
+      @include tourImage("../images/tour/tour-israel/israel-tour-02.jpg");
+    }
+    .three {
+      @include tourImage("../images/tour/tour-israel/israel-tour-03.jpg");
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .tourFlyer {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .tours-details {
+    .tourFlyer {
+      flex-direction: column;
+      margin-bottom: 300px;
+      .one {
+        margin-bottom: 20px;
+      }
+      .two {
+        margin-bottom: 20px;
+      }
+      .three {
+        margin-bottom: 20px;
+      }
+    }
+    .content {
+      margin-bottom: 300px;
+    }
+    .hero {
+      max-width: 100%;
+      .header {
+        font-size: 50px;
+      }
+      .price {
+        font-size: 15px;
+      }
+    }
+  }
 }

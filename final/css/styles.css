@@ -1144,7 +1144,158 @@ nav {
         justify-content: center; } }
 
 .tours-details {
-  height: 100%; }
+  width: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 50px; }
+  .tours-details .hero {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    height: 415px;
+    width: 981px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/tour/tour-01.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/tour/tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .tours-details .hero .header {
+      font-family: "Lato", sans-serif;
+      color: #ffffff;
+      font-size: 80px;
+      font-weight: 100;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 15px; }
+    .tours-details .hero .price {
+      font-family: "Lato", sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 100;
+      text-transform: uppercase;
+      position: absolute;
+      bottom: 5px;
+      right: 10px; }
+  .tours-details .content {
+    height: 775px;
+    max-width: 981px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .tours-details .content .day h3 {
+      font-family: "Lato", sans-serif;
+      font-weight: 100;
+      font-size: 60px; }
+    .tours-details .content .day h3:after {
+      content: "";
+      display: block;
+      width: 15%;
+      border-bottom: 2px solid black; }
+    .tours-details .content .day p {
+      font-family: "Roboto", sans-serif;
+      font-size: 16px; }
+    .tours-details .content .button {
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #79addc;
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      border-radius: 50px;
+      width: 133px;
+      height: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 50px;
+      text-transform: uppercase; }
+  .tours-details .tourFlyer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 300px;
+    width: 1000px; }
+    .tours-details .tourFlyer .one {
+      background-image: url("../images/tour/tour-israel/israel-tour-01.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 300px; }
+    .tours-details .tourFlyer .two {
+      background-image: url("../images/tour/tour-israel/israel-tour-02.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 300px; }
+    .tours-details .tourFlyer .three {
+      background-image: url("../images/tour/tour-israel/israel-tour-03.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 300px; }
+
+@media (max-width: 1200px) {
+  .tourFlyer {
+    margin-bottom: 100px; } }
+
+@media (max-width: 1000px) {
+  .tours-details .tourFlyer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 300px; }
+    .tours-details .tourFlyer .one {
+      margin-bottom: 20px; }
+    .tours-details .tourFlyer .two {
+      margin-bottom: 20px; }
+    .tours-details .tourFlyer .three {
+      margin-bottom: 20px; }
+  .tours-details .content {
+    margin-bottom: 300px; }
+  .tours-details .hero {
+    max-width: 100%; }
+    .tours-details .hero .header {
+      font-size: 50px; }
+    .tours-details .hero .price {
+      font-size: 15px; } }
 
 * {
   margin: 0;
