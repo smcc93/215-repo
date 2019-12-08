@@ -1049,56 +1049,102 @@ nav {
     display: block;
     width: 9%;
     border-bottom: 2px solid black; }
-  .contact .info .map-form .form {
+  .contact .info .map-form {
+    height: 450px;
+    margin-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 530px;
-    height: 442px; }
-    .contact .info .map-form .form .input {
-      height: 60px;
-      margin-bottom: 20px;
-      padding-left: 10px;
-      font-family: "Roboto", sans-serif;
-      font-size: 16px; }
-    .contact .info .map-form .form .message {
-      height: 200px;
-      padding-left: 10px;
-      font-family: "Roboto", sans-serif;
-      font-size: 16px;
-      padding-top: 10px; }
-  .contact .info .address-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .contact .info .address-button .address p {
-      font-size: 18px;
-      font-family: "Roboto", sans-serif;
-      color: #000000; }
-    .contact .info .address-button .button {
-      text-decoration: none;
-      color: #ffffff;
-      background-color: #79addc;
-      font-family: "Lato", sans-serif;
-      font-size: 15px;
-      border-radius: 50px;
-      width: 133px;
-      height: 40px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contact .info .map-form .form {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      margin-top: 50px;
-      text-transform: uppercase; }
+      width: 530px;
+      height: 500px;
+      margin-top: 75px; }
+      .contact .info .map-form .form .input {
+        height: 60px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px; }
+      .contact .info .map-form .form .message {
+        height: 200px;
+        padding-left: 10px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        padding-top: 10px; }
+      .contact .info .map-form .form .button {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #79addc;
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+        border-radius: 50px;
+        width: 133px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 50px;
+        text-transform: uppercase; }
+  .contact .info .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-top: 50px; }
+    .contact .info .address p {
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      color: #000000; }
+
+@media (max-width: 1500px) {
+  .contact {
+    margin-bottom: 500px; }
+    .contact .info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .contact .info .map-form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        .contact .info .map-form .form {
+          width: 100%; }
+      .contact .info .address {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
+
+.tours-details {
+  height: 100%; }
 
 * {
   margin: 0;

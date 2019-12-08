@@ -19,11 +19,21 @@
   }
   .info {
     .map-form {
+      height: 450px;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .map {
+        // margin-top: 50px;
+      }
       .form {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         width: 530px;
-        height: 442px;
+        height: 500px;
+        margin-top: 75px;
 
         .input {
           height: 60px;
@@ -39,19 +49,39 @@
           font-size: 16px;
           padding-top: 10px;
         }
-      }
-    }
-    .address-button {
-      display: flex;
-      .address {
-        p {
-          font-size: 18px;
-          font-family: $roboto-font;
-          color: $site-black;
+        .button {
+          @include button();
         }
       }
-      .button {
-        @include button();
+    }
+    .address {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 50px;
+
+      p {
+        font-size: 18px;
+        font-family: $roboto-font;
+        color: $site-black;
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .contact {
+    margin-bottom: 500px;
+    .info {
+      display: flex;
+      flex-direction: column;
+      .map-form {
+        flex-direction: column;
+        .form {
+          width: 100%;
+        }
+      }
+      .address {
+        justify-content: center;
       }
     }
   }
