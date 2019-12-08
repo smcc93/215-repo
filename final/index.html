@@ -21,27 +21,27 @@
   </head>
   <body>
     <nav>
-      <div class="logo"></div>
+      <div class="logo "></div>
       <div class="link-wrap">
         <div class="links">
-          <a href="#">Home</a>
+          <a href="#" id="home" class="navWhite">Home</a>
           <span> | </span>
-          <a href="#">About</a>
+          <a href="#" id="about" class="navWhite">About</a>
           <span> | </span>
-          <a href="#">Tours</a>
+          <a href="#" id="tours" class="navWhite">Tours</a>
           <span> | </span>
-          <a href="#">Special Offers</a>
+          <a href="#" id="offers" class="navWhite">Special Offers</a>
           <span> | </span>
-          <a href="#">Blog</a>
+          <a href="#" id="blog" class="navWhite">Blog</a>
           <span> | </span>
-          <a href="#">Contact</a>
+          <a href="#" id="contact" class="navWhite">Contact</a>
         </div>
         <div class="navicon">
           <i class="fas fa-bars"></i>
         </div>
       </div>
     </nav>
-    <section class="home-page hide">
+    <section class="home-page" id="homePage">
       <section class="hero-wrapper">
         <div class="hero">
           <!-- <nav>
@@ -185,7 +185,7 @@
         <a class="form-button" href="#">submit</a>
       </section>
     </section>
-    <section class="about-page hide">
+    <section class="about-page hide" id="aboutPage">
       <div class="about">
         <h1>About:</h1>
         <!-- <div class="line"></div> -->
@@ -230,7 +230,7 @@
         </div>
       </div>
     </section>
-    <section class="tours-main hide">
+    <section class="tours-main hide" id="toursPage">
       <div class="tours-header">
         <h1>TOURS:</h1>
       </div>
@@ -304,7 +304,7 @@
         </div>
       </div>
     </section>
-    <section class="tours-details">
+    <section class="tours-details hide">
       <div class="hero">
         <div class="header">Israel tour package:</div>
         <div class="price">STARTING FROM $1000 (prices may vary)</div>
@@ -360,7 +360,7 @@
         <div class="button">book now</div>
       </div>
     </section>
-    <section class="special-offer hide">
+    <section class="special-offer hide" id="offersPage">
       <div class="special">
         <div class="title">
           <h3>SPECIAL OFFER(S):</h3>
@@ -399,7 +399,7 @@
         </div>
       </div>
     </section>
-    <section class="blog hide">
+    <section class="blog hide" id="blogPage">
       <div class="blog-title">blog:</div>
       <div class="blogs">
         <div class="blog1">
@@ -436,7 +436,7 @@
         </div>
       </div>
     </section>
-    <section class="contact hide">
+    <section class="contact hide" id="contactPage">
       <div class="title">
         <h3>contact us:</h3>
       </div>
@@ -490,5 +490,7 @@
         <i class="icon fab fa-twitter-square"></i>
       </div>
     </section>
+    <script src="lib/jquery-3.4.1.min.js"></script>
+    <script src="app/app.js"></script>
   </body>
 </html>

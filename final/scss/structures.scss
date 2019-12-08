@@ -21,8 +21,11 @@ p {
 .hide {
   display: none;
 }
-.show {
-  display: block;
+.navWhite {
+  color: $site-white;
+}
+.navBlack {
+  color: $site-black;
 }
 .footer {
   background-color: $site-blue;

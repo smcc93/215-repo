@@ -22,6 +22,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .link-wrap {
     &:hover > .links {
       display: flex;
@@ -32,7 +33,7 @@ nav {
       justify-content: center;
       text-transform: lowercase;
       a {
-        color: $site-white;
+        //color: $site-white;
         font-size: 15px;
         text-decoration: none;
         font-family: $lato-font;

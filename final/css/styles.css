@@ -38,7 +38,6 @@ nav {
     justify-content: center;
     text-transform: lowercase; }
     nav .link-wrap .links a {
-      color: #ffffff;
       font-size: 15px;
       text-decoration: none;
       font-family: "Lato", sans-serif; }
@@ -1319,8 +1318,11 @@ p {
 .hide {
   display: none; }
 
-.show {
-  display: block; }
+.navWhite {
+  color: #ffffff; }
+
+.navBlack {
+  color: #000000; }
 
 .footer {
   background-color: #79addc;
