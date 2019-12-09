@@ -880,7 +880,7 @@ nav {
       .about-page .quotes .quote1 .picture {
         height: 150px;
         width: 260px;
-        background-image: url("../../images/about-client-01.jpg");
+        background-image: url("../images/about-client-01.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
@@ -915,7 +915,7 @@ nav {
       .about-page .quotes .quote2 .picture {
         height: 150px;
         width: 260px;
-        background-image: url("../../images/about-client-02.jpg");
+        background-image: url("../images/about-client-02.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
