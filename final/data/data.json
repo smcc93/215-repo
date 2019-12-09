@@ -1,7 +1,7 @@
 [
   {
     "hero": "../images/tour/tour-01.jpg",
-    "header": "isreal tour package",
+    "header": "Isreal tour package:",
     "price": "STARTING FROM $1000 (prices may vary)",
     "flyer1": "../images/tour/tour-israel/israel-tour-01.jpg",
     "flyer2": "../images/tour/tour-israel/israel-tour-02.jpg",
@@ -9,7 +9,7 @@
   },
   {
     "hero": "../images/tour/tour-02.jpg",
-    "header": "isreal tour package",
+    "header": "U.S.A tour package:",
     "price": "STARTING FROM $1500 (prices may vary)",
     "flyer1": "../images/tour/tour-usa/usa-tour-01.jpg",
     "flyer2": "../images/tour/tour-usa/usa-tour-02.jpg",
@@ -17,7 +17,7 @@
   },
   {
     "hero": "../images/tour/tour-03.jpg",
-    "header": "isreal tour package",
+    "header": "Australia tour package:",
     "price": "STARTING FROM $1800 (prices may vary)",
     "flyer1": "../images/tour/tour-aus/aus-tour-01.jpg",
     "flyer2": "../images/tour/tour-aus/aus-tour-02.jpg",
@@ -25,7 +25,7 @@
   },
   {
     "hero": "../images/tour/tour-04.jpg",
-    "header": "isreal tour package",
+    "header": "New Zealand tour package:",
     "price": "STARTING FROM $1200 (prices may vary)",
     "flyer1": "../images/tour/tour-nz/nz-tour-01.jpg",
     "flyer2": "../images/tour/tour-nz/nz-tour-02.jpg",
@@ -33,7 +33,7 @@
   },
   {
     "hero": "../images/tour/tour-05.jpg",
-    "header": "isreal tour package",
+    "header": "France tour package:",
     "price": "STARTING FROM $2500 (prices may vary)",
     "flyer1": "../images/tour/tour-france/france-tour-01.jpg",
     "flyer2": "../images/tour/tour-france/france-tour-02.jpg",
@@ -41,7 +41,7 @@
   },
   {
     "hero": "../images/tour/tour-06.jpg",
-    "header": "isreal tour package",
+    "header": "Egypt tour package:",
     "price": "STARTING FROM $900 (prices may vary)",
     "flyer1": "../images/tour/tour-egypt/egypt-tour-01.jpg",
     "flyer2": "../images/tour/tour-egypt/egypt-tour-02.jpg",
@@ -49,7 +49,7 @@
   },
   {
     "hero": "../images/tour/tour-07.jpg",
-    "header": "isreal tour package",
+    "header": "Japan tour package:",
     "price": "STARTING FROM $1300 (prices may vary)",
     "flyer1": "../images/tour/tour-japan/japan-tour-01.jpg",
     "flyer2": "../images/tour/tour-japan/japan-tour-02.jpg",
@@ -57,7 +57,7 @@
   },
   {
     "hero": "../images/tour/tour-08.jpg",
-    "header": "isreal tour package",
+    "header": "Canada tour package:",
     "price": "STARTING FROM $2000 (prices may vary)",
     "flyer1": "../images/tour/tour-canada/canada-tour-01.jpg",
     "flyer2": "../images/tour/tour-canada/canada-tour-02.jpg",
@@ -65,7 +65,7 @@
   },
   {
     "hero": "../images/tour/tour-09.jpg",
-    "header": "isreal tour package",
+    "header": "U.A.E tour package:",
     "price": "STARTING FROM $3000 (prices may vary)",
     "flyer1": "../images/tour/tour-uae/uae-tour-01.jpg",
     "flyer2": "../images/tour/tour-uae/uae-tour-02.jpg",
