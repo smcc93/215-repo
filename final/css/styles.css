@@ -880,6 +880,8 @@ nav {
       .about-page .quotes .quote1 .picture1 {
         height: 150px;
         width: 260px;
+        height: 150px;
+        width: 260px;
         background-image: url("../images/about-client-01.jpg");
         background-repeat: no-repeat;
         background-position: center;
