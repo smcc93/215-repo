@@ -1,3 +1,31 @@
+var tourData = [];
+
+function tourPages() {
+  $("div a").click(function(e) {
+    e.preventDefault();
+    var id = e.currentTarget.id;
+    if (tourData[id]) {
+      var tourString = `<div class="hero">
+            <div class="header">${tourData[id].header}</div>
+            <div class="price">${tourData[id].price}</div>
+          </div>
+          <div class="tourFlyer">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>`;
+      $(".tours-details").html(tourString);
+    }
+  });
+}
+
+function getData() {
+  $.getJSON("data/data.json", function(data) {
+    tourData = data;
+    tourPages();
+  });
+}
+
 function showPages() {
   var pageShowing = "homePage";
 
@@ -41,4 +69,8 @@ function showPages() {
 
 $(document).ready(function() {
   showPages();
+});
+
+$(document).ready(function() {
+  getData();
 });
