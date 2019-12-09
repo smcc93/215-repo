@@ -877,7 +877,7 @@ nav {
       -ms-flex-align: center;
       align-items: center;
       margin-top: 50px; }
-      .about-page .quotes .quote1 .picture {
+      .about-page .quotes .quote1 .picture1 {
         height: 150px;
         width: 260px;
         background-image: url("../images/about-client-01.jpg");
@@ -912,7 +912,7 @@ nav {
       -ms-flex-align: center;
       align-items: center;
       margin-top: 50px; }
-      .about-page .quotes .quote2 .picture {
+      .about-page .quotes .quote2 .picture2 {
         height: 150px;
         width: 260px;
         background-image: url("../images/about-client-02.jpg");

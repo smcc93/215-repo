@@ -65,7 +65,7 @@
       justify-content: space-between;
       align-items: center;
       margin-top: 50px;
-      .picture {
+      .picture1 {
         @include quotePics("../images/about-client-01.jpg");
       }
       .quote {
@@ -82,7 +82,7 @@
       justify-content: space-between;
       align-items: center;
       margin-top: 50px;
-      .picture {
+      .picture2 {
         @include quotePics("../images/about-client-02.jpg");
       }
       .quote {
