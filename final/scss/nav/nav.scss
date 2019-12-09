@@ -13,11 +13,20 @@ nav {
   //background-color: black;
   margin-bottom: -100px;
 
-  .logo {
+  .logoW {
     height: 42px;
     width: 92px;
     //border: 2px solid $site-white;
     background-image: url("../images/logo/logo-white.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logoB {
+    height: 42px;
+    width: 92px;
+    //border: 2px solid $site-white;
+    background-image: url("../images/logo/logo-black.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,6 +60,36 @@ nav {
       cursor: pointer;
     }
   }
+}
+.navW {
+  position: relative;
+  z-index: 99;
+  //width: 980px;
+  width: 60%;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //margin-left: 18%;
+  //background-color: black;
+  margin-bottom: -100px;
+}
+.navB {
+  position: relative;
+  z-index: 99;
+  //width: 980px;
+  width: 60%;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //margin-left: 18%;
+  //background-color: black;
+  margin-bottom: -100px;
 }
 
 @media (max-width: 768px) {

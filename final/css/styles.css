@@ -15,10 +15,17 @@ nav {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: -100px; }
-  nav .logo {
+  nav .logoW {
     height: 42px;
     width: 92px;
     background-image: url("../images/logo/logo-white.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  nav .logoB {
+    height: 42px;
+    width: 92px;
+    background-image: url("../images/logo/logo-black.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
@@ -50,6 +57,42 @@ nav {
     color: #ffffff;
     font-size: 120%;
     cursor: pointer; }
+
+.navW {
+  position: relative;
+  z-index: 99;
+  width: 60%;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: -100px; }
+
+.navB {
+  position: relative;
+  z-index: 99;
+  width: 60%;
+  height: 92px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: -100px; }
 
 @media (max-width: 768px) {
   nav .link-wrap:hover > .links {
