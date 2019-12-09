@@ -66,7 +66,7 @@
       align-items: center;
       margin-top: 50px;
       .picture {
-        @include quotePics("../images/about-client-01.jpg");
+        @include quotePics("../../images/about-client-01.jpg");
       }
       .quote {
         @include quote();
@@ -83,7 +83,7 @@
       align-items: center;
       margin-top: 50px;
       .picture {
-        @include quotePics("../../images/about-client-01.jpg");
+        @include quotePics("../../images/about-client-02.jpg");
       }
       .quote {
         @include quote();
